@@ -1,0 +1,227 @@
+/* Styles the main elements of the page */
+* {
+    box-sizing: border-box;
+    }
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+header {
+    display: flex;
+    height: 200px;
+    width: 100%;
+    padding: 30px;
+    align-items: center;
+    background-color: lemonchiffon;
+    color: cadetblue;
+}
+
+/* Styles the image placement in header */
+.float-left {
+    height: 200px;
+    margin: 20px;
+    justify-content: center;
+}
+
+/* Styles the lists */
+ul {
+    display: flex;
+    flex-direction: row;
+
+}
+
+li {
+    font-size: larger;
+    padding-top: 15px;
+    padding-right: 20px;
+
+}
+
+/* Styles the anchor tags */
+a {
+    color: cadetblue;
+}
+
+/* Styles the h tags */
+h2 {
+    padding: 0px 0px 20px 0px;
+}
+
+h3 {
+    margin: 15px;
+    color: lemonchiffon; 
+    text-align: center;
+}
+
+h4 
+{
+    margin: 15px;
+    color: cadetblue; 
+    text-align: center;
+}
+
+/* Styles the text for the page */
+p {
+    text-align: center;
+    color: cadetblue;
+    font-size: larger;
+}
+
+/* Styles the text in about me section */
+.aboutme {
+    color: lemonchiffon;
+    text-align: left;
+    font-size: larger;
+}
+
+/* Controls object placement in section areas */
+section {
+    display:flex;
+    flex-direction: column;
+    height: 50%;
+    align-items: center;
+}
+
+/* Styles the about me part of the page */
+#AboutMe {
+    display: block;
+    width: 100%;
+    padding: 60px;
+    background-color: cadetblue;
+    color: lemonchiffon;
+
+}
+
+/* Styles the my work part of the page */
+#MyWork {
+    display: block;
+    padding: 60px;
+    background-color: lemonchiffon;
+    color: cadetblue;
+
+}
+/* Styles the feature project area */
+.feature-project 
+{
+   display: block;
+    border-width: 2px;
+    border-color: darkorange;
+    border-style:solid;
+    width: 100%;
+    height:75%;
+    background-color: cadetblue;
+}
+
+.feature-project a {
+    color: lemonchiffon;
+}
+
+
+/* Styles the standard projects area */
+.standard-project {
+    flex-direction: row;
+    justify-content: space-between;
+    border-width: 2px;
+    border-color: darkorange;
+    border-style:solid;
+    width: 100%;
+    height: 50%;
+    background-color: lemonchiffon;
+    margin:50px;
+}
+
+/* Styles the h3 in the stardard projects area */
+.standard-project h3 {
+    color:cadetblue;
+
+}
+
+/* Allows the standard projects to show side by side */
+.row {
+    background-color: cadetblue;
+    flex-direction: row;
+    width: 100%;
+}
+
+/* Styles the image treatment in the my work section */
+.float-left-mywork {
+    width: 100%;
+    padding: 30px;
+    align-content: center;
+
+}
+
+/* Styles the contact me section */
+.contact-me {
+    width: 100%;
+    flex-direction: row;
+    text-align: center;
+    color: darkorange;
+    background-color: lemonchiffon;
+    padding: 25px;
+}
+
+/* Styles the ul in the contact me section */
+.contact-me ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: cadetblue;
+        }
+
+/* Styles the footer section */
+footer{
+    flex-direction: row;
+    width: 100%;
+    background-color: cadetblue;
+    color:lemonchiffon;
+    font-size: larger;
+    text-align: center;
+    padding: 10px;
+}
+
+/* These are the hover state effects for each element and class */
+
+.float-left:hover{
+    border-width: 2px;
+    border-color: darkorange;
+    border-style:solid;
+}
+
+header:hover{
+    color: darkorange;
+}
+
+a:hover{
+    color: darkorange;
+    font-weight: bold;
+}
+
+
+/* Provides responsive functionality and realigns items in header and nav for mobile and tablet*/
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+        height: 25%;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    section {
+        height: 100%;
+            }
+
+    .standard-project {
+       margin: 10px;
+      
+    }
+}

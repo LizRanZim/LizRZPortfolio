@@ -1,0 +1,23 @@
+/* Resets the margin, padding and box size of all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Allows the body element something to compare to */
+  html {
+    height: 100%;
+  }
+  
+  /* Resets the line height and font family */
+  body {
+    min-height: 100%;
+    line-height: 1;
+
+  }
+  
+/* Takes away default bullet points from lists */
+ ul {
+  list-style: none;
+}
