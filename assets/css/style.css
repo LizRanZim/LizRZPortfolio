@@ -1,14 +1,14 @@
 /* Styles the main elements of the page */
 * {
     box-sizing: border-box;
-    }
+}
 
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     display: flex;
     flex-wrap: wrap;
-    
-    
+
+
 }
 
 header {
@@ -54,14 +54,13 @@ h2 {
 
 h3 {
     margin: 15px;
-    color: lemonchiffon; 
+    color: lemonchiffon;
     text-align: center;
 }
 
-h4 
-{
+h4 {
     margin: 15px;
-    color: cadetblue; 
+    color: cadetblue;
     text-align: center;
 }
 
@@ -81,7 +80,7 @@ p {
 
 /* Controls object placement in section areas */
 section {
-    display:flex;
+    display: flex;
     flex-direction: column;
     height: 50%;
     align-items: center;
@@ -105,15 +104,15 @@ section {
     color: cadetblue;
 
 }
+
 /* Styles the feature project area */
-.feature-project 
-{
-   display: block;
+.feature-project {
+    display: block;
     border-width: 2px;
     border-color: darkorange;
-    border-style:solid;
+    border-style: solid;
     width: 100%;
-    height:75%;
+    height: 75%;
     background-color: cadetblue;
 }
 
@@ -128,16 +127,16 @@ section {
     justify-content: space-between;
     border-width: 2px;
     border-color: darkorange;
-    border-style:solid;
+    border-style: solid;
     width: 100%;
     height: 50%;
     background-color: lemonchiffon;
-    margin:50px;
+    margin: 50px;
 }
 
 /* Styles the h3 in the stardard projects area */
 .standard-project h3 {
-    color:cadetblue;
+    color: cadetblue;
 
 }
 
@@ -172,14 +171,14 @@ section {
     flex-direction: row;
     justify-content: center;
     color: cadetblue;
-        }
+}
 
 /* Styles the footer section */
-footer{
+footer {
     flex-direction: row;
     width: 100%;
     background-color: cadetblue;
-    color:lemonchiffon;
+    color: lemonchiffon;
     font-size: larger;
     text-align: center;
     padding: 10px;
@@ -187,17 +186,17 @@ footer{
 
 /* These are the hover state effects for each element and class */
 
-.float-left:hover{
+.float-left:hover {
     border-width: 2px;
     border-color: darkorange;
-    border-style:solid;
+    border-style: solid;
 }
 
-header:hover{
+header:hover {
     color: darkorange;
 }
 
-a:hover{
+a:hover {
     color: darkorange;
     font-weight: bold;
 }
@@ -218,10 +217,10 @@ a:hover{
 
     section {
         height: 100%;
-            }
+    }
 
     .standard-project {
-       margin: 10px;
-      
+        margin: 10px;
+
     }
 }

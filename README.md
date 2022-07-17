@@ -17,3 +17,5 @@ https://lizranzim.github.io/LizRZPortfolio/</a>
 
 ## Notes
 A learning assistant helpmed me with repository issues that's why I have a low number of commits. The learning assistant suggested I add this note.
+
+Phone number and email address are intentionally generic as I don't want to publish this information online at this time.
